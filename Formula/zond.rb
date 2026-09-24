@@ -2,7 +2,6 @@
 class Zond < Formula
   desc "Network scanner that maps hosts, ports and services and what is wrong with them"
   homepage "https://github.com/zond-rs/zond"
-  version "0.17.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
