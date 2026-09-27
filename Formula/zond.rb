@@ -6,12 +6,12 @@ class Zond < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zond-rs/zond/releases/download/v0.17.0/zond-0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f1f93a3405ef2a2330c03c1f4d5484e10bdf8983bc89fe7a77bc08dcfcf4dd11"
+      url "https://github.com/zond-rs/zond/releases/download/v0.18.0/zond-0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "97ead51c168e346033769d4864d2bd37252cd06fc621544f14f36c97be74660f"
     end
     on_intel do
-      url "https://github.com/zond-rs/zond/releases/download/v0.17.0/zond-0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "25b4341791f21045bddd3e9809f478d23e16199d23a3e7cf141366679fc829c5"
+      url "https://github.com/zond-rs/zond/releases/download/v0.18.0/zond-0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7298b3ae7346d7d69a69afa6d3b20bc9130f08415a6ea2e8ca53230b31372dd9"
     end
   end
 
