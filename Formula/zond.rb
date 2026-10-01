@@ -6,17 +6,18 @@ class Zond < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zond-rs/zond/releases/download/v0.18.0/zond-0.18.0-aarch64-apple-darwin.tar.gz"
-      sha256 "97ead51c168e346033769d4864d2bd37252cd06fc621544f14f36c97be74660f"
+      url "https://github.com/zond-rs/zond/releases/download/v0.19.0/zond-0.19.0-aarch64-apple-darwin.tar.gz"
+      sha256 "60e7e0bb2578dbee8cc9557a6ef6db5ca2ce90635041e71357cb4b338eae32f0"
     end
     on_intel do
-      url "https://github.com/zond-rs/zond/releases/download/v0.18.0/zond-0.18.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7298b3ae7346d7d69a69afa6d3b20bc9130f08415a6ea2e8ca53230b31372dd9"
+      url "https://github.com/zond-rs/zond/releases/download/v0.19.0/zond-0.19.0-x86_64-apple-darwin.tar.gz"
+      sha256 "96d0c3d8b81b9c774e9a3e19f49596855c8c5e44651807fb28c99ff5a022523e"
     end
   end
 
   def install
     bin.install "zond"
+    doc.install "NOTICE.ubuntu-data"
   end
 
   def caveats
